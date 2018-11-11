@@ -3,15 +3,6 @@ iBase4J的SpringBoot版本
 [![License](http://img.shields.io/:license-apache-blue.svg "2.0")](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![JDK 1.8](https://img.shields.io/badge/JDK-1.8-green.svg "JDK 1.8")]()
 
-## iBase4J项目简介
-
-- iBase4J是Java语言的分布式系统架构。 使用Spring整合开源框架。
-- 使用Maven对项目进行模块化管理，提高项目的易开发性、扩展性。
-- 系统包括4个子系统：系统管理Service、系统管理Web、业务Service、业务Web。
-- 系统管理：包括用户管理、权限管理、数据字典、系统参数管理等等。
-- 业务相关：您的业务开发。
-- 可以无限的扩展子系统，子系统之间使用Dubbo或MQ进行通信。
-
 ## 主要功能
  1. 数据库：Druid数据库连接池，监控数据库访问性能，统计SQL的执行性能。 数据库密码加密，加密方式请查看PropertiesUtil，decryptProperties属性配置需要解密的key。
  2. 持久层：mybatis持久化，使用MyBatis-Plus优化，减少sql开发量；aop切换数据库实现读写分离。Transtraction注解事务。
@@ -48,27 +39,6 @@ iBase4J的SpringBoot版本
     * 生产环境打包命令：
     	 clean package -P product -f pom-sys-service-server.xml
     	 clean package -P product -f pom-sys-web-server.xml
-    
-## 版权声明
-iBase4J使用 [Apache License 2.0][] 协议.
-
-## 加入QQ群[538240548](http://shang.qq.com/wpa/qunwpa?idkey=b0fb32618d54e6a7f3cb718cd469b2952c8a968b1ef6f17fd68c83338ae4bce3)
-交流技术问题，下载项目文档和一键启动依赖服务工具。
-
-![QQ群](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/1464169485871.png "QQ群一")
-
-## UI效果图
-
-![登录](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/login.png "登录")
-![主页](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/index.png "主页")
-![接口](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/swagger.png "接口")
-
-##==可购买完整版UI(iBase4J-UI-DataTables/iBase4J-UI-AdminLTE)
-客服QQ：2296277393
-
-![登录](https://gitee.com/iBase4J/iBase4J-SpringBoot/raw/master/iBase4J-UI/iBase4J-UI-AdminLTE/desc/1.png "登录")
-![主页](https://gitee.com/iBase4J/iBase4J-SpringBoot/raw/master/iBase4J-UI/iBase4J-UI-AdminLTE/desc/2.png "主页")
-
 
 ## License
 iBase4J is released under version 2.0 of the [Apache License][].
