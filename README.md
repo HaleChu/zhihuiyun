@@ -42,8 +42,3 @@ iBase4J的SpringBoot版本
 
 ## License
 iBase4J is released under version 2.0 of the [Apache License][].
-
-![捐赠](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/contribute.png "捐赠")
-
-[Apache License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[Apache License]: http://www.apache.org/licenses/LICENSE-2.0
